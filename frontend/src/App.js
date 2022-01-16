@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 const axios = require("axios");
 
 const App = () => {
-  console.log(process.env.REACT_APP_NAME, "cat nameeennnnnnnn!");
+  console.log(process.env.REACT_APP_NAME, "Bobby");
 
   const [user, setUser] = useState();
   useEffect(() => {
