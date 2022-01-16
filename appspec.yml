@@ -27,3 +27,4 @@ files:
     destination: /mern-app-ec2
   - source: /mern-app-ec2/frontend/build
     destination: /var/www/react-app
+file_exists_behavior: OVERWRITE
