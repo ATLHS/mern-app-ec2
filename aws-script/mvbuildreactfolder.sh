@@ -1,22 +1,27 @@
 #!/bin/bash 
 
-# building react app
+# Building react app
+cd "/home/ubuntu/folder/frontend"
+npm run build
 
-# remove react build folder content from nginx web server new location
+# Remove react build folder content from Nginx web server to new location
 sudo rm -r "/var/www/react-app/"*
 
-# copy paste new react build folder to nginx web server new location
+# Copy paste new react build folder to nginx web server new location
 cp -r "/home/ubuntu/folder/frontend/build/"* "/var/www/react-app"
 
-# Installing dependencies for backend 
+# Installing backend dependencies
 cd "/home/ubuntu/folder/backend"
 npm i
 
-# Installing dependencies for frontend
+# Installing frontend dependencies
 cd "/home/ubuntu/folder/frontend"
 npm i
 
-# restart Nginx and Express server
+# Restart Nginx and Express server
 cd "/home/ubuntu"
-sudo systemctl restart nginx
+sudo systemctl restart Nginx
+
+cd "/home/ubuntu/folder/backend"
+pm2 restart server.js
 
