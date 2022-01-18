@@ -11,6 +11,6 @@
 cp -r "/home/ubuntu/folder/frontend/build/"* "/var/www/react-app"
 
 # restart nginx
-cd "/home/ubuntu"
-sudo systemctl restart nginx
+#cd "/home/ubuntu"
+#sudo systemctl restart nginx
 
