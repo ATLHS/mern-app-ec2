@@ -16,7 +16,7 @@ npm i
 cd "/home/ubuntu/folder/frontend"
 npm i
 
-# restart nginx
+# restart Nginx and Express server
 cd "/home/ubuntu"
 sudo systemctl restart nginx
 
