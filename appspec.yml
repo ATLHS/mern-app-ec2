@@ -27,4 +27,9 @@ files:
     destination: /home/ubuntu/folder
   - source: /frontend/build
     destination: /var/www/react-app
+hooks:
+  AfterInstall:
+    - location: /aws-script/mvbuildreactfolder.sh 
+      timeout: 
+      runas:
 file_exists_behavior: OVERWRITE

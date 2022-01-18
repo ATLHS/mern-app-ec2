@@ -1,0 +1,1 @@
+cp "../frontend/build/*" "/var/www/react-app"
