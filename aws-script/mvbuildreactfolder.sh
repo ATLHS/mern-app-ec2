@@ -1,1 +1,1 @@
-cp "~/folder/frontend/build/"* "/var/www/react-app"
+cp "/home/ubuntu/folder/frontend/build/"* "/var/www/react-app"
