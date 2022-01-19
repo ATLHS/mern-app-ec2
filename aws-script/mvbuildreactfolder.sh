@@ -16,8 +16,8 @@ cd "/home/ubuntu/folder/backend"
 npm i
 
 # Installing frontend dependencies
-cd "/home/ubuntu/folder/frontend"
-npm i
+# cd "/home/ubuntu/folder/frontend"
+# npm i
 
 # Restart Express server and Nginx
 
