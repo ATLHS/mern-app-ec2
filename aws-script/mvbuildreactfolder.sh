@@ -1,5 +1,5 @@
 #!/bin/bash 
-sudo chown -R ubuntu "/home/ubuntu/folder/"
+# sudo chown -R ubuntu "/home/ubuntu/folder/"
 
 # Building react app
 # cd "/home/ubuntu/folder/frontend"
@@ -20,9 +20,9 @@ cd "/home/ubuntu/folder/frontend"
 npm i
 
 # Restart Nginx and Express server
-# cd "/home/ubuntu"
-# sudo systemctl restart Nginx
-
+cd "/home/ubuntu"
+sudo systemctl restart Nginx
+ 
 # cd "/home/ubuntu/folder/backend"
-# pm2 restart server.js
+pm2 restart server.js
 
