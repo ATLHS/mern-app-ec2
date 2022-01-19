@@ -1,5 +1,5 @@
 #!/bin/bash 
-# sudo chown -R ubuntu "/home/ubuntu/folder/"
+sudo chown -R ubuntu "/home/ubuntu/folder/"
 
 # Building react app
 # cd "/home/ubuntu/folder/frontend"
@@ -16,8 +16,8 @@ cd "/home/ubuntu/folder/backend"
 npm i
 
 # Installing frontend dependencies
-# cd "/home/ubuntu/folder/frontend"
-# npm i
+cd "/home/ubuntu/folder/frontend"
+npm uninstall react-bootstrap
 
 # Restart Express server and Nginx
 
