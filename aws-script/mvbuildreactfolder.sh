@@ -1,5 +1,5 @@
 #!/bin/bash 
-sudo chown -R ubuntu "/home/ubuntu/folder/"
+# sudo chown -R ubuntu "/home/ubuntu/folder/"
 
 # Building react app
 # cd "/home/ubuntu/folder/frontend"
