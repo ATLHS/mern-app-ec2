@@ -23,6 +23,6 @@ npm i
 cd "/home/ubuntu"
 sudo systemctl restart Nginx
 
-cd "/home/ubuntu/folder/backend"
-pm2 restart server.js
+# cd "/home/ubuntu/folder/backend"
+# pm2 restart server.js
 
