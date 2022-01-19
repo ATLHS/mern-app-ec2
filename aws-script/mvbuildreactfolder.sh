@@ -2,8 +2,8 @@
 # sudo chown -R ubuntu "/home/ubuntu/folder/"
 
 # Building react app
-# cd "/home/ubuntu/folder/frontend"
-# npm run build
+cd "/home/ubuntu/folder/frontend"
+npm run build
 
 # Remove react build folder content from Nginx web server to new location
 sudo rm -r "/var/www/react-app/"*
