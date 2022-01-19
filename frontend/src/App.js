@@ -1,7 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import { useEffect, useState } from "react";
-import { Button } from "react-bootstrap";
+// import { Button } from "react-bootstrap";
 const axios = require("axios");
 
 const App = () => {
@@ -19,7 +19,7 @@ const App = () => {
         <img src={logo} className="App-logo" alt="logo" />
         <h2>Justwish.fr</h2>
         <p>{user}</p>
-        <Button variant="primary">Primary</Button>
+        {/* <Button variant="primary">Primary</Button> */}
       </header>
     </div>
   );
