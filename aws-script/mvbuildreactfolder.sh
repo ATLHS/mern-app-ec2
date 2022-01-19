@@ -1,4 +1,11 @@
 #!/bin/bash 
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash 
+. ~/.nvm/nvm.sh
+nvm install node
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # Building react app
 # cd "/home/ubuntu/folder/frontend"
@@ -9,9 +16,6 @@ sudo rm -r "/var/www/react-app/"*
 
 # Copy paste new react build folder to nginx web server new location
 cp -r "/home/ubuntu/folder/frontend/build/"* "/var/www/react-app"
-
-sudo chown -R ubuntu "/home/ubuntu/folder/frontend/"
-sudo chown -R ubuntu "/home/ubuntu/folder/backend/"
 
 # Installing backend dependencies
 cd "/home/ubuntu/folder/backend"
