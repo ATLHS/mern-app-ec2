@@ -1,5 +1,5 @@
 #!/bin/bash 
-# sudo chown -R ubuntu "/home/ubuntu/folder/"
+sudo chown -R ubuntu "/home/ubuntu/folder/"
 
 # Building react app
 # cd "/home/ubuntu/folder/frontend"
@@ -12,12 +12,12 @@ sudo rm -r "/var/www/react-app/"*
 cp -r "/home/ubuntu/folder/frontend/build/"* "/var/www/react-app"
 
 # Installing backend dependencies
-# cd "/home/ubuntu/folder/backend"
-# npm i
+cd "/home/ubuntu/folder/backend"
+npm i
 
 # Installing frontend dependencies
-# cd "/home/ubuntu/folder/frontend"
-# npm i
+cd "/home/ubuntu/folder/frontend"
+npm i
 
 # Restart Nginx and Express server
 # cd "/home/ubuntu"
