@@ -17,7 +17,7 @@ const App = () => {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <h2>Coucou c'est Mila et Scarlett vs la team mimi</h2>
+        <h2>Justwish.fr</h2>
         <p>{user}</p>
         <Button variant="primary">Primary</Button>
       </header>
