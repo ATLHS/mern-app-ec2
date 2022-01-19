@@ -9,20 +9,20 @@
 sudo rm -r "/var/www/react-app/"*
 
 # Copy paste new react build folder to nginx web server new location
-cp -r "/home/ubuntu/folder/frontend/build/"* "/var/www/react-app"
+# cp -r "/home/ubuntu/folder/frontend/build/"* "/var/www/react-app"
 
 # Installing backend dependencies
-cd "/home/ubuntu/folder/backend"
-npm i
+# cd "/home/ubuntu/folder/backend"
+# npm i
 
 # Installing frontend dependencies
-cd "/home/ubuntu/folder/frontend"
-npm i
+# cd "/home/ubuntu/folder/frontend"
+# npm i
 
 # Restart Nginx and Express server
-cd "/home/ubuntu"
-sudo systemctl restart Nginx
+# cd "/home/ubuntu"
+# sudo systemctl restart Nginx
  
 # cd "/home/ubuntu/folder/backend"
-pm2 restart server.js
+# pm2 restart server.js
 
